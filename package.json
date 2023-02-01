@@ -1,0 +1,19 @@
+{
+  "name": "husky-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": "eslint",
+    "*.ts": "eslint"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.0"
+  },
+  "scripts": {
+    "lint": "eslint ./",
+    "prepare": "husky install"
+  }
+}
